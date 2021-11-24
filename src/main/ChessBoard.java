@@ -1,7 +1,7 @@
 package main;
 
 public class ChessBoard {
-	static private ChessBoard instance = null;
+	private static ChessBoard instance = null;
 	
 	private ChessBoard() {}
 	
@@ -10,7 +10,6 @@ public class ChessBoard {
 		if( instance == null) {
 			instance = new ChessBoard();
 		}
-		
 		return instance;
 	}
 	
@@ -20,7 +19,6 @@ public class ChessBoard {
 		
 		System.out.println(tabuleiro1);
 		System.out.println(tabuleiro2);
-
 
 	}
 }
