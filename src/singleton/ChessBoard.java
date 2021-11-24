@@ -1,4 +1,4 @@
-package main;
+package singleton;
 
 public class ChessBoard {
 	private static ChessBoard instance = null;
